@@ -64,12 +64,12 @@ const ProductTable = () => {
         {
           accessorKey: 'id',
           header: 'ID',
-          cell: info => info.getValue() as number, // Casting ke number
+          cell: info => info.getValue() as number, 
         },
         {
           accessorKey: 'title',
           header: 'Product Name',
-          cell: info => info.getValue() as string, // Casting ke string
+          cell: info => info.getValue() as string, 
         },
         {
           accessorKey: 'description',
